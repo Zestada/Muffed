@@ -551,3 +551,11 @@ X Protocol Version 11, Revision 0
 [   215.434] (II) event4  - spice vdagent tablet: is tagged by udev as: Mouse
 [   215.436] (II) event4  - spice vdagent tablet: device is a pointer
 [   249.022] (EE) event4  - spice vdagent tablet: client bug: event processing lagging behind by 24ms, your system is too slow
+[  1165.916] (EE) event4  - spice vdagent tablet: client bug: event processing lagging behind by 22ms, your system is too slow
+[  4357.192] (EE) event4  - spice vdagent tablet: client bug: event processing lagging behind by 30ms, your system is too slow
+[  4358.421] (EE) event4  - spice vdagent tablet: client bug: event processing lagging behind by 48ms, your system is too slow
+[  4388.045] (EE) event3  - QEMU QEMU USB Keyboard: client bug: event processing lagging behind by 22ms, your system is too slow
+[  4456.568] (EE) event3  - QEMU QEMU USB Keyboard: client bug: event processing lagging behind by 26ms, your system is too slow
+[  4457.461] (EE) event3  - QEMU QEMU USB Keyboard: client bug: event processing lagging behind by 35ms, your system is too slow
+[  4987.571] (EE) event4  - spice vdagent tablet: client bug: event processing lagging behind by 21ms, your system is too slow
+[  5024.958] (EE) event4  - spice vdagent tablet: client bug: event processing lagging behind by 71ms, your system is too slow

@@ -13,7 +13,7 @@ kernel.bin: kernel-entry.o ${O_FILES}
 	ld -m elf_i386 -s -o $@ -Ttext 0x1000 $^ --oformat binary
 kernel-entry.o: kernel-entry.elf
 		nasm $< -f elf -o $@
-kernel.o: ${O_FILES}
+${O_FILES}:
 	gcc -Iinclude -fno-pie -m32 -ffreestanding -c ${@:.o=.c} -o $@
 clean:
 	$(RM) *.o *.bin

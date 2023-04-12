@@ -1,5 +1,6 @@
 #include "console.h"
 
+/*
 void main() {
 
 	char* const VGA_BUFFER = (char*) 0xb8000;
@@ -11,7 +12,7 @@ void main() {
 
 	return;
 }
-
+*/
 
 void main() {
 
