@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1681306628,,"wq"
+|2,0,1681330827,,"wq"
 :q!
 |2,0,1678127886,,"q!"
 
@@ -26,34 +26,136 @@
 
 # Registers:
 ""-	CHAR	0
-	o
-|3,1,36,0,1,0,1681305523,"o"
+	0
+|3,1,36,0,1,0,1681330142,"0"
 
 # File marks:
-'0  16  10  ~/os/Makefile
-|4,48,16,10,1681306628,"~/os/Makefile"
-'1  16  10  ~/os/Makefile
-|4,49,16,10,1681306561,"~/os/Makefile"
-'2  1  0  ~/os/MakeFile
-|4,50,1,0,1681306502,"~/os/MakeFile"
-'3  25  0  ~/os/kernel.c
-|4,51,25,0,1681306408,"~/os/kernel.c"
-'4  1  0  ~/os/kernel.o
-|4,52,1,0,1681306385,"~/os/kernel.o"
-'5  1  0  ~/kernel.c
-|4,53,1,0,1681306359,"~/kernel.c"
-'6  54  0  ~/os/shell/console.c
-|4,54,54,0,1681305823,"~/os/shell/console.c"
-'7  22  1  ~/os/kernel.c
-|4,55,22,1,1681305618,"~/os/kernel.c"
-'8  22  1  ~/os/kernel.c
-|4,56,22,1,1681305618,"~/os/kernel.c"
-'9  16  10  ~/os/Makefile
-|4,57,16,10,1681305580,"~/os/Makefile"
+'0  85  14  ~/os/boot.asm
+|4,48,85,14,1681330827,"~/os/boot.asm"
+'1  59  0  ~/os/shell/console.c
+|4,49,59,0,1681330609,"~/os/shell/console.c"
+'2  57  45  ~/os/shell/console.c
+|4,50,57,45,1681330013,"~/os/shell/console.c"
+'3  53  45  ~/os/shell/console.c
+|4,51,53,45,1681330013,"~/os/shell/console.c"
+'4  81  18  ~/os/boot.asm
+|4,52,81,18,1681329811,"~/os/boot.asm"
+'5  81  18  ~/os/boot.asm
+|4,53,81,18,1681329811,"~/os/boot.asm"
+'6  16  10  ~/os/Makefile
+|4,54,16,10,1681306628,"~/os/Makefile"
+'7  16  10  ~/os/Makefile
+|4,55,16,10,1681306561,"~/os/Makefile"
+'8  1  0  ~/os/MakeFile
+|4,56,1,0,1681306502,"~/os/MakeFile"
+'9  25  0  ~/os/kernel.c
+|4,57,25,0,1681306408,"~/os/kernel.c"
 
 # Jumplist (newest first):
+-'  85  14  ~/os/boot.asm
+|4,39,85,14,1681330827,"~/os/boot.asm"
+-'  81  18  ~/os/boot.asm
+|4,39,81,18,1681330790,"~/os/boot.asm"
+-'  59  0  ~/os/shell/console.c
+|4,39,59,0,1681330609,"~/os/shell/console.c"
+-'  59  0  ~/os/shell/console.c
+|4,39,59,0,1681330609,"~/os/shell/console.c"
+-'  57  45  ~/os/shell/console.c
+|4,39,57,45,1681330130,"~/os/shell/console.c"
+-'  57  45  ~/os/shell/console.c
+|4,39,57,45,1681330130,"~/os/shell/console.c"
+-'  53  45  ~/os/shell/console.c
+|4,39,53,45,1681330013,"~/os/shell/console.c"
+-'  53  45  ~/os/shell/console.c
+|4,39,53,45,1681330013,"~/os/shell/console.c"
+-'  58  0  ~/os/shell/console.c
+|4,39,58,0,1681329957,"~/os/shell/console.c"
+-'  54  0  ~/os/shell/console.c
+|4,39,54,0,1681329957,"~/os/shell/console.c"
+-'  58  0  ~/os/shell/console.c
+|4,39,58,0,1681329957,"~/os/shell/console.c"
+-'  54  0  ~/os/shell/console.c
+|4,39,54,0,1681329957,"~/os/shell/console.c"
+-'  81  18  ~/os/boot.asm
+|4,39,81,18,1681329811,"~/os/boot.asm"
+-'  81  18  ~/os/boot.asm
+|4,39,81,18,1681329811,"~/os/boot.asm"
+-'  81  18  ~/os/boot.asm
+|4,39,81,18,1681329811,"~/os/boot.asm"
+-'  81  18  ~/os/boot.asm
+|4,39,81,18,1681329811,"~/os/boot.asm"
+-'  1  0  ~/os/boot.asm
+|4,39,1,0,1681329764,"~/os/boot.asm"
+-'  1  0  ~/os/boot.asm
+|4,39,1,0,1681329764,"~/os/boot.asm"
+-'  1  0  ~/os/boot.asm
+|4,39,1,0,1681329764,"~/os/boot.asm"
+-'  1  0  ~/os/boot.asm
+|4,39,1,0,1681329764,"~/os/boot.asm"
+-'  1  0  ~/os/boot.asm
+|4,39,1,0,1681329764,"~/os/boot.asm"
 -'  16  10  ~/os/Makefile
 |4,39,16,10,1681306628,"~/os/Makefile"
+-'  16  10  ~/os/Makefile
+|4,39,16,10,1681306628,"~/os/Makefile"
+-'  16  10  ~/os/Makefile
+|4,39,16,10,1681306628,"~/os/Makefile"
+-'  16  10  ~/os/Makefile
+|4,39,16,10,1681306628,"~/os/Makefile"
+-'  16  10  ~/os/Makefile
+|4,39,16,10,1681306628,"~/os/Makefile"
+-'  16  10  ~/os/Makefile
+|4,39,16,10,1681306628,"~/os/Makefile"
+-'  16  10  ~/os/Makefile
+|4,39,16,10,1681306628,"~/os/Makefile"
+-'  16  10  ~/os/Makefile
+|4,39,16,10,1681306628,"~/os/Makefile"
+-'  16  10  ~/os/Makefile
+|4,39,16,10,1681306628,"~/os/Makefile"
+-'  16  10  ~/os/Makefile
+|4,39,16,10,1681306628,"~/os/Makefile"
+-'  16  10  ~/os/Makefile
+|4,39,16,10,1681306628,"~/os/Makefile"
+-'  16  10  ~/os/Makefile
+|4,39,16,10,1681306628,"~/os/Makefile"
+-'  16  10  ~/os/Makefile
+|4,39,16,10,1681306628,"~/os/Makefile"
+-'  16  10  ~/os/Makefile
+|4,39,16,10,1681306628,"~/os/Makefile"
+-'  16  10  ~/os/Makefile
+|4,39,16,10,1681306628,"~/os/Makefile"
+-'  16  10  ~/os/Makefile
+|4,39,16,10,1681306628,"~/os/Makefile"
+-'  16  10  ~/os/Makefile
+|4,39,16,10,1681306561,"~/os/Makefile"
+-'  16  10  ~/os/Makefile
+|4,39,16,10,1681306561,"~/os/Makefile"
+-'  16  10  ~/os/Makefile
+|4,39,16,10,1681306561,"~/os/Makefile"
+-'  16  10  ~/os/Makefile
+|4,39,16,10,1681306561,"~/os/Makefile"
+-'  16  10  ~/os/Makefile
+|4,39,16,10,1681306561,"~/os/Makefile"
+-'  16  10  ~/os/Makefile
+|4,39,16,10,1681306561,"~/os/Makefile"
+-'  16  10  ~/os/Makefile
+|4,39,16,10,1681306561,"~/os/Makefile"
+-'  16  10  ~/os/Makefile
+|4,39,16,10,1681306561,"~/os/Makefile"
+-'  16  10  ~/os/Makefile
+|4,39,16,10,1681306561,"~/os/Makefile"
+-'  16  10  ~/os/Makefile
+|4,39,16,10,1681306561,"~/os/Makefile"
+-'  16  10  ~/os/Makefile
+|4,39,16,10,1681306561,"~/os/Makefile"
+-'  16  10  ~/os/Makefile
+|4,39,16,10,1681306561,"~/os/Makefile"
+-'  16  10  ~/os/Makefile
+|4,39,16,10,1681306561,"~/os/Makefile"
+-'  16  10  ~/os/Makefile
+|4,39,16,10,1681306561,"~/os/Makefile"
+-'  16  10  ~/os/Makefile
+|4,39,16,10,1681306561,"~/os/Makefile"
 -'  16  10  ~/os/Makefile
 |4,39,16,10,1681306561,"~/os/Makefile"
 -'  1  0  ~/os/MakeFile
@@ -64,196 +166,114 @@
 |4,39,1,0,1681306502,"~/os/MakeFile"
 -'  1  0  ~/os/MakeFile
 |4,39,1,0,1681306502,"~/os/MakeFile"
--'  25  0  ~/os/kernel.c
-|4,39,25,0,1681306408,"~/os/kernel.c"
--'  25  0  ~/os/kernel.c
-|4,39,25,0,1681306408,"~/os/kernel.c"
--'  25  0  ~/os/kernel.c
-|4,39,25,0,1681306408,"~/os/kernel.c"
--'  25  0  ~/os/kernel.c
-|4,39,25,0,1681306408,"~/os/kernel.c"
--'  25  0  ~/os/kernel.c
-|4,39,25,0,1681306408,"~/os/kernel.c"
--'  25  0  ~/os/kernel.c
-|4,39,25,0,1681306408,"~/os/kernel.c"
--'  25  0  ~/os/kernel.c
-|4,39,25,0,1681306408,"~/os/kernel.c"
--'  25  0  ~/os/kernel.c
-|4,39,25,0,1681306408,"~/os/kernel.c"
--'  22  1  ~/os/kernel.c
-|4,39,22,1,1681306391,"~/os/kernel.c"
--'  22  1  ~/os/kernel.c
-|4,39,22,1,1681306391,"~/os/kernel.c"
--'  22  1  ~/os/kernel.c
-|4,39,22,1,1681306391,"~/os/kernel.c"
--'  22  1  ~/os/kernel.c
-|4,39,22,1,1681306391,"~/os/kernel.c"
--'  22  1  ~/os/kernel.c
-|4,39,22,1,1681306391,"~/os/kernel.c"
--'  22  1  ~/os/kernel.c
-|4,39,22,1,1681306391,"~/os/kernel.c"
--'  22  1  ~/os/kernel.c
-|4,39,22,1,1681306391,"~/os/kernel.c"
--'  22  1  ~/os/kernel.c
-|4,39,22,1,1681306391,"~/os/kernel.c"
--'  1  0  ~/os/kernel.o
-|4,39,1,0,1681306385,"~/os/kernel.o"
--'  1  0  ~/os/kernel.o
-|4,39,1,0,1681306385,"~/os/kernel.o"
--'  1  0  ~/os/kernel.o
-|4,39,1,0,1681306385,"~/os/kernel.o"
--'  1  0  ~/os/kernel.o
-|4,39,1,0,1681306385,"~/os/kernel.o"
--'  1  0  ~/os/kernel.o
-|4,39,1,0,1681306385,"~/os/kernel.o"
--'  1  0  ~/os/kernel.o
-|4,39,1,0,1681306385,"~/os/kernel.o"
--'  1  0  ~/os/kernel.o
-|4,39,1,0,1681306385,"~/os/kernel.o"
--'  1  0  ~/os/kernel.o
-|4,39,1,0,1681306385,"~/os/kernel.o"
--'  1  0  ~/os/kernel.o
-|4,39,1,0,1681306385,"~/os/kernel.o"
--'  1  0  ~/os/kernel.o
-|4,39,1,0,1681306385,"~/os/kernel.o"
--'  1  0  ~/os/kernel.o
-|4,39,1,0,1681306385,"~/os/kernel.o"
--'  1  0  ~/os/kernel.o
-|4,39,1,0,1681306385,"~/os/kernel.o"
--'  1  0  ~/os/kernel.o
-|4,39,1,0,1681306385,"~/os/kernel.o"
--'  1  0  ~/os/kernel.o
-|4,39,1,0,1681306385,"~/os/kernel.o"
--'  1  0  ~/os/kernel.o
-|4,39,1,0,1681306385,"~/os/kernel.o"
--'  1  0  ~/os/kernel.o
-|4,39,1,0,1681306385,"~/os/kernel.o"
--'  1  0  ~/kernel.c
-|4,39,1,0,1681306359,"~/kernel.c"
--'  1  0  ~/kernel.c
-|4,39,1,0,1681306359,"~/kernel.c"
--'  1  0  ~/kernel.c
-|4,39,1,0,1681306359,"~/kernel.c"
--'  1  0  ~/kernel.c
-|4,39,1,0,1681306359,"~/kernel.c"
--'  1  0  ~/kernel.c
-|4,39,1,0,1681306359,"~/kernel.c"
--'  1  0  ~/kernel.c
-|4,39,1,0,1681306359,"~/kernel.c"
--'  1  0  ~/kernel.c
-|4,39,1,0,1681306359,"~/kernel.c"
--'  1  0  ~/kernel.c
-|4,39,1,0,1681306359,"~/kernel.c"
--'  1  0  ~/kernel.c
-|4,39,1,0,1681306359,"~/kernel.c"
--'  1  0  ~/kernel.c
-|4,39,1,0,1681306359,"~/kernel.c"
--'  1  0  ~/kernel.c
-|4,39,1,0,1681306359,"~/kernel.c"
--'  1  0  ~/kernel.c
-|4,39,1,0,1681306359,"~/kernel.c"
--'  1  0  ~/kernel.c
-|4,39,1,0,1681306359,"~/kernel.c"
--'  1  0  ~/kernel.c
-|4,39,1,0,1681306359,"~/kernel.c"
--'  1  0  ~/kernel.c
-|4,39,1,0,1681306359,"~/kernel.c"
--'  1  0  ~/kernel.c
-|4,39,1,0,1681306359,"~/kernel.c"
--'  1  0  ~/kernel.c
-|4,39,1,0,1681306359,"~/kernel.c"
--'  1  0  ~/kernel.c
-|4,39,1,0,1681306359,"~/kernel.c"
--'  1  0  ~/kernel.c
-|4,39,1,0,1681306359,"~/kernel.c"
--'  1  0  ~/kernel.c
-|4,39,1,0,1681306359,"~/kernel.c"
--'  1  0  ~/kernel.c
-|4,39,1,0,1681306359,"~/kernel.c"
--'  1  0  ~/kernel.c
-|4,39,1,0,1681306359,"~/kernel.c"
--'  1  0  ~/kernel.c
-|4,39,1,0,1681306359,"~/kernel.c"
--'  1  0  ~/kernel.c
-|4,39,1,0,1681306359,"~/kernel.c"
--'  1  0  ~/kernel.c
-|4,39,1,0,1681306359,"~/kernel.c"
--'  1  0  ~/kernel.c
-|4,39,1,0,1681306359,"~/kernel.c"
--'  1  0  ~/kernel.c
-|4,39,1,0,1681306359,"~/kernel.c"
--'  1  0  ~/kernel.c
-|4,39,1,0,1681306359,"~/kernel.c"
--'  1  0  ~/kernel.c
-|4,39,1,0,1681306359,"~/kernel.c"
--'  1  0  ~/kernel.c
-|4,39,1,0,1681306359,"~/kernel.c"
--'  1  0  ~/kernel.c
-|4,39,1,0,1681306359,"~/kernel.c"
--'  1  0  ~/kernel.c
-|4,39,1,0,1681306359,"~/kernel.c"
--'  54  0  ~/os/shell/console.c
-|4,39,54,0,1681305823,"~/os/shell/console.c"
--'  54  0  ~/os/shell/console.c
-|4,39,54,0,1681305823,"~/os/shell/console.c"
--'  54  0  ~/os/shell/console.c
-|4,39,54,0,1681305823,"~/os/shell/console.c"
--'  54  0  ~/os/shell/console.c
-|4,39,54,0,1681305823,"~/os/shell/console.c"
--'  54  0  ~/os/shell/console.c
-|4,39,54,0,1681305823,"~/os/shell/console.c"
--'  54  0  ~/os/shell/console.c
-|4,39,54,0,1681305823,"~/os/shell/console.c"
--'  54  0  ~/os/shell/console.c
-|4,39,54,0,1681305823,"~/os/shell/console.c"
--'  54  0  ~/os/shell/console.c
-|4,39,54,0,1681305823,"~/os/shell/console.c"
--'  54  0  ~/os/shell/console.c
-|4,39,54,0,1681305823,"~/os/shell/console.c"
--'  54  0  ~/os/shell/console.c
-|4,39,54,0,1681305823,"~/os/shell/console.c"
--'  54  0  ~/os/shell/console.c
-|4,39,54,0,1681305823,"~/os/shell/console.c"
--'  54  0  ~/os/shell/console.c
-|4,39,54,0,1681305823,"~/os/shell/console.c"
--'  54  0  ~/os/shell/console.c
-|4,39,54,0,1681305823,"~/os/shell/console.c"
--'  54  0  ~/os/shell/console.c
-|4,39,54,0,1681305823,"~/os/shell/console.c"
--'  54  0  ~/os/shell/console.c
-|4,39,54,0,1681305823,"~/os/shell/console.c"
--'  54  0  ~/os/shell/console.c
-|4,39,54,0,1681305823,"~/os/shell/console.c"
--'  54  0  ~/os/shell/console.c
-|4,39,54,0,1681305823,"~/os/shell/console.c"
--'  54  0  ~/os/shell/console.c
-|4,39,54,0,1681305823,"~/os/shell/console.c"
--'  54  0  ~/os/shell/console.c
-|4,39,54,0,1681305823,"~/os/shell/console.c"
--'  54  0  ~/os/shell/console.c
-|4,39,54,0,1681305823,"~/os/shell/console.c"
--'  54  0  ~/os/shell/console.c
-|4,39,54,0,1681305823,"~/os/shell/console.c"
--'  54  0  ~/os/shell/console.c
-|4,39,54,0,1681305823,"~/os/shell/console.c"
--'  54  0  ~/os/shell/console.c
-|4,39,54,0,1681305823,"~/os/shell/console.c"
--'  54  0  ~/os/shell/console.c
-|4,39,54,0,1681305823,"~/os/shell/console.c"
--'  54  0  ~/os/shell/console.c
-|4,39,54,0,1681305823,"~/os/shell/console.c"
--'  54  0  ~/os/shell/console.c
-|4,39,54,0,1681305823,"~/os/shell/console.c"
--'  54  0  ~/os/shell/console.c
-|4,39,54,0,1681305823,"~/os/shell/console.c"
--'  54  0  ~/os/shell/console.c
-|4,39,54,0,1681305823,"~/os/shell/console.c"
--'  54  0  ~/os/shell/console.c
-|4,39,54,0,1681305823,"~/os/shell/console.c"
--'  54  0  ~/os/shell/console.c
-|4,39,54,0,1681305823,"~/os/shell/console.c"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
+-'  1  0  ~/os/MakeFile
+|4,39,1,0,1681306502,"~/os/MakeFile"
 
 # History of marks within files (newest to oldest):
+
+> ~/os/boot.asm
+	*	1681330823	0
+	"	85	14
+	^	81	19
+	.	81	17
+	+	81	17
+
+> ~/os/shell/console.c
+	*	1681330602	0
+	"	59	0
+	^	59	0
+	.	57	23
+	+	57	49
+	+	54	40
+	+	53	31
+	+	56	7
+	+	57	1
+	+	59	0
+	+	57	23
 
 > ~/os/Makefile
 	*	1681306625	0
@@ -293,10 +313,6 @@
 > ~/kernel.c
 	*	1681306357	0
 	"	1	0
-
-> ~/os/shell/console.c
-	*	1681305818	0
-	"	54	0
 
 > ~/os/include/console.h
 	*	1681305492	0

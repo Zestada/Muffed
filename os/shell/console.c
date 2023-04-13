@@ -50,7 +50,12 @@ void print_string_with_color(char* str, VGA_Color bg_color, VGA_Color font_color
 void print_character_with_color(char c, VGA_Color bg_color, VGA_Color font_color) {
 	// check for special new line character
 	if (c == '\n') {
-		terminal_position = (terminal_position / 160 + 1)*160;
+		if (terminal_position % 160 == 0) {
+			terminal_position = terminal_position;
+		}
+		else {
+			terminal_position = ((terminal_position / 160) + 1)*160;
+		}
 
 		return;
 	}

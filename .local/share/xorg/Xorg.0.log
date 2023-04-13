@@ -559,3 +559,6 @@ X Protocol Version 11, Revision 0
 [  4457.461] (EE) event3  - QEMU QEMU USB Keyboard: client bug: event processing lagging behind by 35ms, your system is too slow
 [  4987.571] (EE) event4  - spice vdagent tablet: client bug: event processing lagging behind by 21ms, your system is too slow
 [  5024.958] (EE) event4  - spice vdagent tablet: client bug: event processing lagging behind by 71ms, your system is too slow
+[ 12528.708] (EE) event4  - spice vdagent tablet: client bug: event processing lagging behind by 23ms, your system is too slow
+[ 12719.239] (EE) event3  - QEMU QEMU USB Keyboard: client bug: event processing lagging behind by 40ms, your system is too slow
+[ 13381.046] (EE) event3  - QEMU QEMU USB Keyboard: client bug: event processing lagging behind by 27ms, your system is too slow
