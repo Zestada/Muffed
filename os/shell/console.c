@@ -63,11 +63,25 @@ void print_character_with_color(char c, VGA_Color bg_color, VGA_Color font_color
 	VGA_BUFFER[terminal_position++] = c;
 	//compute style byte next
 	VGA_BUFFER[terminal_position++] = (bg_color << 4) | font_color;
+
+	update_cursor();
 }
 
 
 
+void update_cursor() {
 
+     uint16_t cursor_position = terminal_position >> 1;
+
+     outb(0x3D4, 0x0F);
+
+     outb(0x3D5, (uint8_t) (cursor_position));
+
+     outb(0x3D4, 0x0E);
+
+     outb(0x3D5, (uint8_t) (cursor_position >> 8));
+
+}
 
 
 

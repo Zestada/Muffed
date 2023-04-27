@@ -1,4 +1,7 @@
 #include "console.h"
+#include <stdint.h>
+#include "io.h"
+#include "keyboard.h"
 
 /*
 void main() {
@@ -13,7 +16,7 @@ void main() {
 	return;
 }
 */
-
+/*
 void main() {
 
 	clear_terminal();
@@ -23,5 +26,27 @@ void main() {
 	return;
 
 }
+*/
+void main() {
+
+	clear_terminal();
+
+	uint8_t byte;
+
+	while(1) {
+
+	     while( byte = scan()) {
+
+        	  print_character(charmap[byte]);
+
+	     }
+
+	}
+
+}
+
+
+
+
 
 
